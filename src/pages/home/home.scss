@@ -1,3 +1,14 @@
 page-home {
 
+  ion-title .toolbar-title {
+    color: black;
+    font-weight: bold;
+  }
+
+  ion-content .scroll-content button {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
 }

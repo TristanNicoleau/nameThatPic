@@ -1,0 +1,6 @@
+<div class="container" padding-vertical>
+  <label for="{{ rate }}" class="rate-container" *ngFor="let rate of rates; let i=index">
+    <input id="{{ rate }}" type="radio" ngModel="chosenRate" name="rate-radio">
+    <span class="checkmark">{{ rate }}</span>
+  </label>
+</div>
